@@ -29,3 +29,55 @@
 
 
 
+.tabla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.tabla div{
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid 1px #f5f5f5;
+    margin-bottom: 2em;
+   
+}
+
+.tabla div h3{
+
+   font-size: 16px;
+   
+}
+
+.tabla div p{
+
+   font-size: 14px;
+   
+}
+
+.websig {
+    background: rgb(251,251,251);
+    background: radial-gradient(circle, rgba(251,251,251,1) 0%, rgba(145,255,255,1) 0%, rgba(127,243,250,1) 28%, rgba(78,206,231,1) 87%);
+    border: solid 1px white;
+    border-radius: 25px;
+    height: 2em;
+    transition: 0.2s;
+    margin: 2em;
+
+}
+
+.websig:hover {
+    background: radial-gradient(circle, rgba(251,251,251,1) 0%, rgba(145,255,255,1) 0%, rgba(127,243,250,1) 28%, rgba(78,206,231,1) 80%); 
+    transform: scale(0.95);
+}
+
+.websig p a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
