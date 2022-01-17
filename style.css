@@ -1,0 +1,31 @@
+.ca {
+    margin: 1em;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.apt{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.apt div {
+    
+    margin: 1em;
+}
+
+.apt div img {
+    
+    width: 100%;
+  
+}
+
+
+
+
